@@ -8,7 +8,7 @@ async function submitData() {
 
         const parsed = JSON.parse(input);
 
-        const response = await fetch("http://localhost:9000/bfhl", {
+        const response = await fetch("https://bajaj-fullstack-challenge-bgoo.onrender.com", {
 
             method: "POST",
 
